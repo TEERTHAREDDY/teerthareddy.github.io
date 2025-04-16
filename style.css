@@ -1,50 +1,60 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #f5f5f5;
-  color: #222;
+  padding: 0;
 }
-header.hero {
-  text-align: center;
-  background: #0077cc;
-  padding: 1.5rem;
+header {
+  background: #0078d4;
   color: white;
+  text-align: center;
+  padding: 2rem 1rem;
 }
-.hero-img {
+.profile-img {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+.secondary-img {
+  width: 260px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
 }
 nav a {
-  margin: 0 0.6rem;
+  margin: 0 10px;
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
-.buttons a {
+.buttons {
+  margin: 1rem 0;
+}
+.btn {
   background: white;
-  color: #0077cc;
+  color: #0078d4;
   padding: 0.5rem 1rem;
-  margin: 0.4rem;
+  margin: 0 5px;
   border-radius: 5px;
   text-decoration: none;
-  display: inline-block;
+  font-weight: bold;
+}
+.btn.dark {
+  background: #333;
+  color: white;
 }
 main {
-  padding: 1rem 2rem;
+  padding: 2rem;
 }
 h2 {
-  border-bottom: 2px solid #0077cc;
-  padding-bottom: 0.4rem;
-}
-.subphoto {
-  width: 240px;
-  border-radius: 12px;
-  margin: 1rem 0;
+  color: #333;
 }
 footer {
   text-align: center;
   padding: 1rem;
-  background: #eee;
+  background: #f0f0f0;
   margin-top: 2rem;
-  font-size: 0.9rem;
+  color: #444;
 }

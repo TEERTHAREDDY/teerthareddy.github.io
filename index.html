@@ -1,17 +1,17 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Teertha Reddy Maddika | AI/ML Engineer</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Sidebar Navigation -->
   <nav class="sidebar">
     <div class="profile">
-      <img src="profile.jpg" alt="Teertha Reddy Maddika">
+      <img src="profile.jpg" alt="Teertha Reddy Maddika" />
       <h1>Teertha Reddy</h1>
       <p>AI/ML Engineer</p>
     </div>
@@ -24,33 +24,17 @@
     </ul>
   </nav>
 
-  <!-- Main Content -->
   <main class="content">
-    <!-- About Section -->
     <section id="about" class="section">
       <h2>About Me</h2>
       <div class="about-content">
-        <div class="text">
-          <p>I'm an <strong>AI/ML Engineer</strong> with 2+ years of experience building production-grade machine learning systems. Currently pursuing my <strong>MS in Computer Science (AI/ML Track)</strong> at University at Buffalo.</p>
-          <p>Specialized in:</p>
-          <ul>
-            <li><i class="fas fa-arrow-right"></i> Deploying optimized models with <strong>SageMaker & TensorRT</strong></li>
-            <li><i class="fas fa-arrow-right"></i> Building real-time pipelines using <strong>AWS (Kinesis, Lambda, Glue)</strong></li>
-            <li><i class="fas fa-arrow-right"></i> MLOps with <strong>Airflow, MLflow & CI/CD</strong></li>
-          </ul>
-          <div class="stats">
-            <div class="stat-box"><h3>2+</h3><p>Years Experience</p></div>
-            <div class="stat-box"><h3>93%</h3><p>Model Accuracy</p></div>
-            <div class="stat-box"><h3>40+</h3><p>dbt Models Built</p></div>
-          </div>
-        </div>
-        <div class="image"><img src="secondary.jpg" alt="Secondary"></div>
+        <p>I'm an <strong>AI/ML Engineer</strong> currently pursuing my <strong>MS in Computer Science (AI/ML Track)</strong> at University at Buffalo. I build real-time ML systems using SageMaker, TensorRT, and AWS.</p>
+        <img src="secondary.jpg" alt="Secondary Profile" class="secondary-img"/>
       </div>
     </section>
 
-    <!-- Skills Section -->
     <section id="skills" class="section">
-      <h2>Technical Skills</h2>
+      <h2>Skills</h2>
       <div class="skills-grid">
         <div class="skill-category">
           <h3><i class="fas fa-laptop-code"></i> Programming</h3>
@@ -58,37 +42,75 @@
         </div>
         <div class="skill-category">
           <h3><i class="fas fa-brain"></i> ML Frameworks</h3>
-          <ul><li>PyTorch</li><li>TensorFlow</li><li>HuggingFace</li><li>Keras</li><li>Scikit-learn</li></ul>
+          <ul><li>PyTorch</li><li>TensorFlow</li><li>Keras</li><li>HuggingFace</li><li>Sklearn</li></ul>
         </div>
         <div class="skill-category">
-          <h3><i class="fas fa-cloud"></i> Cloud & Data</h3>
-          <ul><li>AWS (S3, Glue, Lambda, EMR, Redshift, SageMaker)</li><li>Snowflake</li><li>Kafka</li><li>Airflow</li></ul>
-        </div>
-        <div class="skill-category">
-          <h3><i class="fas fa-tools"></i> Tools</h3>
-          <ul><li>MLflow</li><li>dbt</li><li>Docker</li><li>Prometheus</li><li>Power BI</li></ul>
+          <h3><i class="fas fa-cloud"></i> Cloud & Tools</h3>
+          <ul><li>AWS (SageMaker, Lambda, Glue, Redshift)</li><li>Docker</li><li>Airflow</li><li>MLflow</li></ul>
         </div>
       </div>
     </section>
 
-    <!-- Contact Section -->
+    <section id="experience" class="section">
+      <h2>Experience</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">Jun 2021 - Jul 2023</div>
+          <div class="timeline-content">
+            <h3>ML Engineer @ Nexora AI Solutions</h3>
+            <ul>
+              <li>Built ML pipelines using AWS Glue, Lambda, SageMaker</li>
+              <li>Deployed PyTorch models optimized with TensorRT</li>
+              <li>Reduced ops time by 45% with Airflow and MLflow</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">Aug 2023 - Present</div>
+          <div class="timeline-content">
+            <h3>Graduate Researcher @ University at Buffalo</h3>
+            <ul>
+              <li>Working on distributed ML training frameworks</li>
+              <li>Developing NLP models for education</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header"><i class="fas fa-comment-dots"></i><h3>AI Feedback Analyzer</h3></div>
+          <p>DistilBERT-based NLP model with 92% F1-score</p>
+          <div class="tech-stack"><span>Streamlit</span><span>FastAPI</span><span>HuggingFace</span></div>
+        </div>
+        <div class="project-card">
+          <div class="project-header"><i class="fas fa-shield-alt"></i><h3>Fraud Detection</h3></div>
+          <p>Real-time AWS pipeline analyzing 1M+ events/day</p>
+          <div class="tech-stack"><span>SageMaker</span><span>Redshift</span><span>Power BI</span></div>
+        </div>
+      </div>
+    </section>
+
     <section id="contact" class="section">
-      <h2>Get In Touch</h2>
+      <h2>Contact</h2>
       <div class="contact-grid">
-        <div class="contact-info">
-          <div class="contact-item"><i class="fas fa-envelope"></i><p>teerthareddy.m@gmail.com</p></div>
-          <div class="contact-item"><i class="fas fa-phone"></i><p>+1 (716) 335 2001</p></div>
-          <div class="contact-item"><i class="fas fa-map-marker-alt"></i><p>Buffalo, NY, USA</p></div>
-        </div>
-        <div class="social-links">
-          <a href="#" class="social-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a href="#" class="social-link"><i class="fab fa-github"></i> GitHub</a>
-          <a href="Teertha_Resume.pdf" download class="social-link"><i class="fas fa-file-pdf"></i> Download CV</a>
-        </div>
+        <div class="contact-item"><i class="fas fa-envelope"></i><p>teerthareddy.m@gmail.com</p></div>
+        <div class="contact-item"><i class="fas fa-phone"></i><p>+1 (716) 335 2001</p></div>
+        <div class="contact-item"><i class="fas fa-map-marker-alt"></i><p>Buffalo, NY</p></div>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="#"><i class="fab fa-github"></i> GitHub</a>
+        <a href="Teertha_Resume.pdf" download><i class="fas fa-file-pdf"></i> Download CV</a>
       </div>
     </section>
   </main>
 
-  <footer><p>&copy; 2024 Teertha Reddy Maddika. All rights reserved.</p></footer>
+  <footer>
+    <p>&copy; 2024 Teertha Reddy Maddika</p>
+  </footer>
 </body>
 </html>

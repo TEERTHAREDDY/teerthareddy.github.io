@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Teertha Reddy Maddika | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Teertha Reddy Maddika | AI/ML Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
+    <img src="profile.jpg" alt="Teertha Reddy Maddika" class="profile-pic" />
     <h1>Teertha Reddy Maddika</h1>
     <p>AI/ML Engineer | Master's in CS (AI/ML Track) | University at Buffalo</p>
+    <div class="cta-buttons">
+      <a href="Teertha_Resume.pdf" class="button" download>Download CV</a>
+      <a href="#contact" class="button secondary">Contact Info</a>
+    </div>
     <nav>
       <a href="#about">About</a>
+      <a href="#experience">Experience</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
@@ -18,14 +25,24 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>I’m Teertha Reddy Maddika, a Master’s student in Computer Science (AI/ML track) at the University at Buffalo. I’m passionate about building intelligent systems and deploying real-time ML pipelines in production. My strengths lie in combining engineering precision with scalable AI workflows.</p>
+    <p>I'm Teertha Reddy Maddika, a Master's student in CS (AI/ML track) at the University at Buffalo.
+    I'm passionate about building intelligent systems and deploying real-time ML pipelines in production.</p>
+  </section>
+
+  <section id="experience">
+    <h2>Experience</h2>
+    <ul>
+      <li>Designed scalable ML pipelines using PySpark, AWS Glue, SageMaker</li>
+      <li>Worked on distributed inference with TensorRT, handled 5M+ events/day using Kinesis</li>
+      <li>Set up model monitoring using Airflow + Prometheus</li>
+    </ul>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
     <ul>
       <li><strong>Feedback Analyzer:</strong> NLP dashboard using DistilBERT + Streamlit</li>
-      <li><strong>Fraud Detection System:</strong> Real-time pipeline with SageMaker + Kinesis</li>
+      <li><strong>Fraud Detection:</strong> Real-time SageMaker + Kinesis + Redshift</li>
       <li><strong>Smart Resource Allocator:</strong> Autoscaling prediction with Flask + Kubernetes</li>
     </ul>
   </section>
@@ -33,12 +50,12 @@
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: teerthareddy.m@gmail.com</p>
-    <p>LinkedIn: <a href="#">linkedin.com/in/teertha</a></p>
-    <p>GitHub: <a href="#">github.com/teerthareddy</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/teertha" target="_blank">linkedin.com/in/teertha</a></p>
+    <p>GitHub: <a href="https://github.com/teerthareddy" target="_blank">github.com/teerthareddy</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2024 Teertha Reddy Maddika</p>
+    <p>© 2025 Teertha Reddy Maddika</p>
   </footer>
 </body>
 </html>

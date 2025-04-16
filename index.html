@@ -1,76 +1,68 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Teertha Reddy Maddika</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teertha Reddy Maddika | AI/ML Engineer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <img src="profile.jpg" alt="Profile Picture" class="profile-img"/>
-    <h1>Teertha Reddy Maddika</h1>
-    <p>AI/ML Engineer | MS CS (AI/ML Track) | University at Buffalo</p>
-    <div class="buttons">
-      <a href="Teertha_Resume.pdf" class="btn" download>Download CV</a>
-      <a href="#contact" class="btn dark">Contact Info</a>
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="profile">
+      <img src="profile.jpg" alt="Teertha Reddy Maddika">
+      <h1>Teertha Reddy</h1>
+      <p>AI/ML Engineer</p>
     </div>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#experience">Experience</a>
-      <a href="#projects">Projects</a>
-      <a href="#certifications">Certifications</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+    <ul>
+      <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+      <li><a href="#skills"><i class="fas fa-code"></i> Skills</a></li>
+      <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+      <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+      <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+    </ul>
+  </nav>
 
-  <main>
-    <section id="about">
+  <!-- Main Content -->
+  <main class="content">
+    <section id="about" class="section">
       <h2>About Me</h2>
-      <p>I’m a Master’s student in Computer Science (AI/ML track) at the University at Buffalo. I specialize in deploying scalable machine learning systems in production using AWS, PyTorch, TensorFlow and MLOps tools. My work is rooted in performance, automation, and cloud-native design.</p>
-      <img src="secondary.jpg" alt="Secondary Image" class="secondary-img"/>
-    </section>
-
-    <section id="experience">
-      <h2>Experience</h2>
-      <ul>
-        <li>Built scalable ML pipelines using AWS Glue, EMR, Lambda, SageMaker</li>
-        <li>Developed PyTorch models with 93%+ accuracy, deployed via TensorRT</li>
-        <li>Processed IoT data at &lt;5s latency using Kinesis Firehose + Lambda</li>
-        <li>Built 40+ dbt models with SCD2 tracking, improving feature reuse</li>
-        <li>Setup CI/CD with Airflow, MLflow, Prometheus, and Great Expectations</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>AI Feedback Analyzer:</strong> DistilBERT + Streamlit dashboard for education NLP (F1: 92%)</li>
-        <li><strong>Fraud Detection System:</strong> Real-time SageMaker + Redshift + Power BI, reduced FPs by 28%</li>
-        <li><strong>Smart Resource Allocator:</strong> K8s autoscaler with Prometheus + TensorFlow (85% accuracy)</li>
-      </ul>
-    </section>
-
-    <section id="certifications">
-      <h2>Certifications</h2>
-      <ul>
-        <li>AWS Certified Machine Learning – Specialty (2024)</li>
-        <li>Google Professional ML Engineer (2024)</li>
-        <li>NVIDIA Deep Learning Certificate (2024)</li>
-      </ul>
-    </section>
-
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: teerthareddy.m@gmail.com</p>
-      <p>LinkedIn: <a href="https://linkedin.com/in/teertha" target="_blank">linkedin.com/in/teertha</a></p>
-      <p>GitHub: <a href="https://github.com/teerthareddy" target="_blank">github.com/teerthareddy</a></p>
+      <div class="about-content">
+        <div class="text">
+          <p>I'm an <strong>AI/ML Engineer</strong> with 2+ years of experience building production-grade machine learning systems. Currently pursuing my <strong>MS in Computer Science (AI/ML Track)</strong> at University at Buffalo.</p>
+          <p>Specialized in:</p>
+          <ul>
+            <li><i class="fas fa-arrow-right"></i> Deploying optimized models with <strong>SageMaker & TensorRT</strong></li>
+            <li><i class="fas fa-arrow-right"></i> Building real-time pipelines using <strong>AWS (Kinesis, Lambda, Glue)</strong></li>
+            <li><i class="fas fa-arrow-right"></i> MLOps with <strong>Airflow, MLflow & CI/CD</strong></li>
+          </ul>
+          <div class="stats">
+            <div class="stat-box">
+              <h3>2+</h3>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat-box">
+              <h3>93%</h3>
+              <p>Model Accuracy</p>
+            </div>
+            <div class="stat-box">
+              <h3>40+</h3>
+              <p>dbt Models Built</p>
+            </div>
+          </div>
+        </div>
+        <div class="image">
+          <img src="secondary.jpg" alt="AI/ML Work">
+        </div>
+      </div>
     </section>
   </main>
 
   <footer>
-    <p>© 2025 Teertha Reddy Maddika</p>
+    <p>&copy; 2024 Teertha Reddy Maddika. All rights reserved.</p>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
